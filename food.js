@@ -11,6 +11,7 @@ export function update () {
    }
 
 }
+
 export function draw(gameBoard) {
         const foodElement = document.createElement('div')
         foodElement.style.gridRowStart = food.y
